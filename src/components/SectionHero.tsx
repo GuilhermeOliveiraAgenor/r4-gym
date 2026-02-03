@@ -1,9 +1,6 @@
-import Footer from "./Footer";
-import Nav from "./Nav";
 import header from "../assets/header.png"
-import Pricing from "./Pricing";
 
-export default function Hero() {
+export default function SectionHero() {
   return (
     <>
       {/*Hero*/}

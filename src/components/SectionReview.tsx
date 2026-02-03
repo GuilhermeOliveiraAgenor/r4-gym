@@ -1,10 +1,6 @@
-
-
 import member from "../assets/member.jpg"
-import Footer from "./Footer";
-import Nav from "./Nav";
 
-export default function Review() {
+export default function SectionReview() {
   return (
     <>
     {/*section review*/}

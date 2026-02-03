@@ -1,11 +1,5 @@
 
-import class1 from "../assets/class-1.jpg"
-import class2 from "../assets/class-2.jpg"
-import Footer from "./Footer";
-import Nav from "./Nav";
-
-
-export default function Pricing() {
+export default function SectionPrice() {
   return (
     <>
     {/*section price cards*/}

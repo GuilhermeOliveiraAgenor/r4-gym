@@ -1,13 +1,12 @@
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Pricing from "../components/Pricing";
+import SectionPrice from "../components/SectionPrice";
 
-
-export default function Home() {
+export default function Pricing() {
   return (
     <>
       <Nav/>
-      <Pricing/>
+      <SectionPrice/>
       <Footer/>
     </>
   );

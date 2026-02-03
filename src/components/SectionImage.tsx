@@ -1,9 +1,7 @@
 import class1 from "../assets/class-1.jpg";
 import class2 from "../assets/class-2.jpg";
-import Footer from "./Footer";
-import Nav from "./Nav";
 
-export default function Image() {
+export default function SectionImage() {
   return (
     <>
     {/*section image*/}

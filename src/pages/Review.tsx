@@ -1,13 +1,12 @@
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Image from "../components/Image";
+import SectionReview from "../components/SectionReview";
 
-
-export default function Home() {
+export default function Review() {
   return (
     <>
       <Nav/>
-      <Image/>
+      <SectionReview/>
       <Footer/>
     </>
   );

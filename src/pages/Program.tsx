@@ -1,12 +1,12 @@
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import SectionHero from "../components/SectionHero";
+import SectionProgram from "../components/SectionProgram";
 
-export default function Home() {
+export default function Program() {
   return (
     <>
       <Nav/>
-      <SectionHero/>
+      <SectionProgram/>
       <Footer/>
     </>
   );
