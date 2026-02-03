@@ -1,12 +1,14 @@
-import "./styles/styles.css";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
+import Hero from "./Hero";
 
-import logo from "./assets/logo.png";
 
-
-export default function App() {
+export default function Home() {
   return (
     <>
-     
+      <Nav/>
+      <Hero/>
+      <Footer/>
     </>
   );
 }
