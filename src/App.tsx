@@ -8,12 +8,14 @@ import logo from "./assets/logo.png";
 import member from "./assets/member.jpg";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Hero from "./pages/Hero";
 
 
 export default function App() {
   return (
     <>
       <Nav/>
+      <Hero/>
       <Footer/>
     </>
   );
