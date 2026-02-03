@@ -1,13 +1,15 @@
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
+
+import class1 from "../assets/class-1.jpg"
+import class2 from "../assets/class-2.jpg"
+import Footer from "./Footer";
+import Nav from "./Nav";
 
 
 export default function Program() {
   return (
     <>
-      <Nav/>
-      {/*section*/}
-      <section className="section__container explore__container">
+     {/*section*/}
+     <section className="section__container explore__container">
         <div className="explore__header">
           <h2 className="section__header">EXPLORE OUR PROGRAMS</h2>
           <div className="explore__nav">
@@ -62,8 +64,6 @@ export default function Program() {
           </div>
         </div>
       </section>
-
-      <Footer/>
     </>
   );
 }
