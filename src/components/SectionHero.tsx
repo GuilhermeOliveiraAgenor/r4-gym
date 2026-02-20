@@ -10,15 +10,15 @@ export default function SectionHero() {
         <div className="header__content">
           <span className="bg__blur"></span>
           <span className="bg__blur header__blur"></span>
-          <h4>MELHOR ACADEMIA DA CIDADE</h4>
-          <h1><span>MAKE</span> YOUR BODY SHAPE</h1>
+          <h4>FAÇA PARTE DO NOSSO TIME </h4>
+          {/* <h1><span>R4</span> GYM</h1> */}
+          <h1><span>VENHA</span> PARA A R4 GYM</h1>
+
           <p>
-            Unleash your potential and embark on a journey towards a stronger,
-            fitter, and more confident you. Sign up for 'Make Your Body Shape' now
-            and witness the incredible transformation your body is capable of!
+            Marque sua aula experimental GRÁTIS
           </p>
           {/*button hero*/}
-          <button className="btn">Entre em contato</button>
+          <button className="btn">COMECE AGORA</button>
         </div>
         {/*image hero*/}
         <div className="header__image">

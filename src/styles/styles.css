@@ -39,7 +39,7 @@
 }
 
 .btn{
-    padding: 1rem 2rem;
+    padding: 1rem 1.2rem;
     outline: none;
     border: none;
     font-size: 1rem;
@@ -129,7 +129,7 @@ nav{
 }
 
 .header__container::before{
-    content: "FITNESS";
+    content: "R4 GYM.";
     position: absolute;
     bottom: 5rem;
     right: 20rem;
@@ -169,6 +169,7 @@ nav{
 .header__content p{
     margin-bottom: 2rem;
     color: var(--text-light);
+    font-size: 1.3rem;
 }
 
 .header__image{
