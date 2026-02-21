@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
@@ -238,6 +240,9 @@ nav{
     border: 2px solid transparent;
     border-radius: 10px;
     transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .explore__card:hover{
@@ -253,6 +258,8 @@ nav{
     color: var(--white);
     background-color: var(--secondary-color-dark);
     border-radius: 5px;
+    width: 46px;
+    height: 45px;
 }
 
 .explore__card h4{
@@ -265,11 +272,13 @@ nav{
 .explore__card p{
     margin-bottom: 1rem;
     color: var(--text-light);
+    flex-grow: 1;
 }
 
 .explore__card a{
     color: var(--white);
     transition: .3s;
+    margin-top: auto;
 }
 
 .explore__card a:hover{

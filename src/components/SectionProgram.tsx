@@ -16,10 +16,10 @@ export default function SectionProgram() {
         <div className="explore__grid">
           <div className="explore__card">
             <span><i className="ri-boxing-fill"></i></span>
-            <h4>Strenght</h4>
+            <h4>Musculação</h4>
             <p>
-              It encompasses a range of activities that improve health,
-              strenght, flexibility, and overall well-being
+              A base para quem busca transformar o corpo e a saúde. Com foco em hipertrofia, emagrecimento ou fortalecimento, 
+nossa musculação oferece equipamentos modernos e acompanhamento profissional para garantir seus resultados. 
             </p>
             <a href="#">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>
@@ -27,10 +27,9 @@ export default function SectionProgram() {
           {/*card*/}
           <div className="explore__card">
             <span><i className="ri-heart-pulse-fill"></i></span>
-            <h4>Fat Lose</h4>
-            <p>
-              Embrace the essence of strenght as we delve into its various
-              dimensions physical, mental, and emotional
+            <h4>Treinamento Funcional</h4>
+            <p>   
+g
             </p>
             <a href="#">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>

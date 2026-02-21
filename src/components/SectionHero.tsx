@@ -18,7 +18,7 @@ export default function SectionHero() {
             Marque sua aula experimental GRÁTIS
           </p>
           {/*button hero*/}
-          <button className="btn">COMECE AGORA</button>
+          <button className="btn">Comece Agora</button>
         </div>
         {/*image hero*/}
         <div className="header__image">
