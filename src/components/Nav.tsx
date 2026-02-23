@@ -16,7 +16,7 @@ export default function Nav() {
           <li className="link"><a href="/about">About</a></li>
           <li className="link"><a href="/review">Community</a></li>
         </ul>
-        <button className="btn">Join Now</button>
+        <button className="btn">Comece Agora</button>
       </nav>
 
     </>
