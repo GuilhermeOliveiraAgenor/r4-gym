@@ -5,7 +5,7 @@ export default function SectionProgram() {
      {/*section*/}
      <section className="section__container explore__container">
         <div className="explore__header">
-          <h2 className="section__header">EXPLORE OUR PROGRAMS</h2>
+          <h2 className="section__header">NOSSAS PROGRAMAS</h2>
           <div className="explore__nav">
             <span><i className="ri-arrow-left-line"></i></span>
             <span><i className="ri-arrow-right-line"></i></span>
@@ -15,13 +15,13 @@ export default function SectionProgram() {
         {/*card*/}
         <div className="explore__grid">
           <div className="explore__card">
-            <span><i className="ri-boxing-fill"></i></span>
+            <span><i className="bx bx-dumbbell"></i></span>
             <h4>Musculação</h4>
             <p>
               A base para quem busca transformar o corpo e a saúde. Com foco em hipertrofia, emagrecimento ou fortalecimento, 
-nossa musculação oferece equipamentos modernos e acompanhamento profissional para garantir seus resultados. 
+              nossa musculação oferece equipamentos modernos e acompanhamento profissional para garantir seus resultados. 
             </p>
-            <a href="#">Join Now <i className="ri-arrow-right-line"></i></a>
+            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
           </div>
 
           {/*card*/}
@@ -29,31 +29,28 @@ nossa musculação oferece equipamentos modernos e acompanhamento profissional p
             <span><i className="ri-heart-pulse-fill"></i></span>
             <h4>Treinamento Funcional</h4>
             <p>   
-g
-            </p>
-            <a href="#">Join Now <i className="ri-arrow-right-line"></i></a>
+            Prepare seu corpo para os desafios do dia a dia. Através de movimentos naturais, como agachar e saltar, melhorando o condicionamento físico, a agilidade e a postura em um treino dinâmico e nunca monótono.            </p>
+            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
           </div>
 
           {/*card*/}
           <div className="explore__card">
             <span><i className="ri-run-fill"></i></span>
-            <h4>Running</h4>
+            <h4>Dança</h4>
             <p>
-              Through a combination of workout routines and expert guidance,
-              we'll empower you to reach your goals
+            Quem dança, os males espanta! Uma aula vibrante que mistura diversos estilos musicais e coreografias divertidas. Melhore seu sistema cardiovascular e coordenação motora enquanto se diverte com a nossa comunidade.
             </p>
-            <a href="#">Join Now <i className="ri-arrow-right-line"></i></a>
+            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
           </div>
 
           {/*card*/}
           <div className="explore__card">
-            <span><i className="ri-shopping-basket-fill"></i></span>
-            <h4>Shop</h4>
+            <span><i className="ri-flashlight-fill"></i></span>
+            <h4>Jump! (Novidade)</h4>
             <p>
-              Designed for individuals, our program offers an effective
-              approach to gaining weight in a sustainable manner
+              Prepare-se para decolar! Utilizando mini trampolins, essa aula de alta intensidade promove um excelente trabalho cardiovascular e o fortalecimento dos membros inferiores, com o benefício de baixo impacto nas articulações.
             </p>
-            <a href="#">Join Now <i className="ri-arrow-right-line"></i></a>
+            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
           </div>
         </div>
       </section>
