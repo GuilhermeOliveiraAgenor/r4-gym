@@ -14,14 +14,14 @@ export default function SectionImage() {
           <img src={class2} alt="class" className="class__img-2" />
         </div>
         <div className="class__content">
-          <h2 className="section__header">THE WILL YOU GET HERE</h2>
+          <h2 className="section__header">VIVA O MOVIMENTO</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sed enim officiis, voluptates et quis iste non ut,
-            temporibus velit reiciendis, nulla distinctio repellendus
-            error iure dolorum est sint mollitia quasi!
+            Oferecemos treinos completos para transformar seu corpo e sua saúde
+             com musculação focada em hipertrofia e emagrecimento, aliado ao acompanhamento de 
+             profissionais e uso de equipamentos modernos. 
+             Também contamos com aulas de treinamento funcional, que desenvolvem o condicionamento e a agilidade, além de aulas de dança e jump para você entrar no ritmo.
           </p>
-          <button className="btn">Book A Class</button>
+          <button className="btn">Marque sua aula</button>
         </div>
       </section>
     </>
