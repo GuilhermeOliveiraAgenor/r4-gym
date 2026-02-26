@@ -18,14 +18,14 @@ export default function Nav() {
         </div>
 
         <ul className="nav__links">
-          <li className="link"><a href="/">Home</a></li>
-          <li className="link"><a href="/program">Program</a></li>
-          <li className="link"><a href="/service">Service</a></li>
-          <li className="link"><a href="/about">About</a></li>
-          <li className="link"><a href="/review">Community</a></li>
+          <li className="link"><a href="/">Menu</a></li>
+          <li className="link"><a href="/program">Programas</a></li>
+          <li className="link"><a href="/service">Planos</a></li>
+          <li className="link"><a href="/about">Sobre</a></li>
+          <li className="link"><a href="/review">Localização</a></li>
         </ul>
 
-        <button className="btn">Join Now</button>
+        <button className="btn">Comece Agora</button>
 
         {/* ICON MOBILE */}
         <div className="menu__icon" onClick={toggleMenu}>
@@ -42,15 +42,14 @@ export default function Nav() {
       {/* MENU MOBILE */}
       <div className={`mobile__menu ${isOpen ? "active" : ""}`}>
   <ul>
-    <li onClick={toggleMenu}><a href="/">Home</a></li>
-    <li onClick={toggleMenu}><a href="/program">Program</a></li>
-    <li onClick={toggleMenu}><a href="/service">Service</a></li>
-    <li onClick={toggleMenu}><a href="/about">About</a></li>
-    <li onClick={toggleMenu}><a href="/review">Community</a></li>
+    <li onClick={toggleMenu}><a href="/">Menu</a></li>
+    <li onClick={toggleMenu}><a href="/program">Programas</a></li>
+    <li onClick={toggleMenu}><a href="/service">Planos</a></li>
+    <li onClick={toggleMenu}><a href="/about">Sobre</a></li>
+    <li onClick={toggleMenu}><a href="/review">Localização</a></li>
   </ul>
 
-  <button className="btn mobile__btn">Join Now</button>
-
+  <button className="btn mobile__btn">Comece Agora</button>
 </div>
     </>
   );

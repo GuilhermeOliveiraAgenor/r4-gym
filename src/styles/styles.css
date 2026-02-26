@@ -103,7 +103,6 @@ nav{
     z-index: 1001;
   }
   
-  /* OVERLAY (fundo escuro) */
   .overlay {
     position: fixed;
     top: 0;
@@ -122,14 +121,13 @@ nav{
     visibility: visible;
   }
   
-  /* MENU LATERAL */
   .mobile__menu {
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
     right: -300px;
-    width: 260px;
+    width: 265px;
     height: 100%;
     background: var(--primary-color-light);
     padding: 2rem;
@@ -138,12 +136,10 @@ nav{
 
   }
   
-  /* QUANDO ABRIR */
   .mobile__menu.active {
     right: 0;
   }
   
-  /* LISTA */
   .mobile__menu ul {
     list-style: none;
     display: flex;
@@ -158,7 +154,7 @@ nav{
 
   .mobile__btn {
     width: 100%;
-    margin-top: 7rem; 
+    margin-top: auto; 
     padding: 1rem;
     font-size: 1.1rem;
     text-align: center;
@@ -691,11 +687,21 @@ nav{
 }
 
 /*smartphone responsive*/
+
 @media (max-width: 900px) {
     .nav__links {
       display: none;
     }
   
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--primary-color);
+        z-index: 1000;
+    }
+
     nav > .btn {
         display: none;
       }
@@ -703,6 +709,7 @@ nav{
     .menu__icon {
       display: block;
     }
+
   }
 @media (width < 600px){
     .explore__header{

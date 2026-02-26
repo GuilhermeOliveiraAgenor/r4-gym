@@ -21,7 +21,7 @@ export default function SectionProgram() {
               A base para quem busca transformar o corpo e a saúde. Com foco em hipertrofia, emagrecimento ou fortalecimento, 
               nossa musculação oferece equipamentos modernos e acompanhamento profissional para garantir seus resultados. 
             </p>
-            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
+            <a href="#">Garanta sua vaga <i className="ri-arrow-right-line"></i></a>
           </div>
 
           {/*card*/}
@@ -30,7 +30,8 @@ export default function SectionProgram() {
             <h4>Treinamento Funcional</h4>
             <p>   
             Prepare seu corpo para os desafios do dia a dia. Através de movimentos naturais, como agachar e saltar, melhorando o condicionamento físico, a agilidade e a postura em um treino dinâmico e nunca monótono.            </p>
-            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
+                        <a href="#">Garanta sua vaga <i className="ri-arrow-right-line"></i></a>
+
           </div>
 
           {/*card*/}
@@ -40,7 +41,8 @@ export default function SectionProgram() {
             <p>
             Quem dança, os males espanta! Uma aula vibrante que mistura diversos estilos musicais e coreografias divertidas. Melhore seu sistema cardiovascular e coordenação motora enquanto se diverte com a nossa comunidade.
             </p>
-            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
+                        <a href="#">Garanta sua vaga <i className="ri-arrow-right-line"></i></a>
+
           </div>
 
           {/*card*/}
@@ -50,7 +52,8 @@ export default function SectionProgram() {
             <p>
               Prepare-se para decolar! Utilizando mini trampolins, essa aula de alta intensidade promove um excelente trabalho cardiovascular e o fortalecimento dos membros inferiores, com o benefício de baixo impacto nas articulações.
             </p>
-            <a href="#">Comece Agora <i className="ri-arrow-right-line"></i></a>
+                        <a href="#">Garanta sua vaga <i className="ri-arrow-right-line"></i></a>
+
           </div>
         </div>
       </section>
