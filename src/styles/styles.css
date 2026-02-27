@@ -50,7 +50,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: .3s;
-}w
+}
 
 .btn:hover{
     background-color: var(--secondary-color-dark);
@@ -653,6 +653,108 @@ nav{
     color: var(--white);
 } 
 
+/**/
+
+.ssection__container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+.ssection__header{
+    position: relative;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.ssection__header::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.ssection__description{
+    max-width: 900px;
+    color: var(--text-light);
+}
+
+.ttrainer__container :is(.ssection__header, .ssection__description){
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.ttrainer__container .ssection__header::after{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ttrainer__grid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.ttrainer__card{
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.ttrainer__card img{
+    height: 100%;
+    object-fit: cover;   
+}
+
+.ttrainer__content{
+    padding: 2rem 1rem;
+}
+
+.ttrainer__content h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-light)
+}
+
+.ttrainer__content h5{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.ttrainer__content p{
+    margin-block: 1rem;
+    color: var(--text-light);
+}
+
+.ttrainer__socials{ 
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ttrainer__socials a{
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
+
+.ttrainer__socials a:hover{
+    color: var(--primary-color)
+}
+
+
+
+
+
 /*tablet responsive*/
 
 @media (width < 900px){
@@ -710,6 +812,10 @@ nav{
       display: block;
     }
 
+    .ttrainer__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
   }
 @media (width < 600px){
     .explore__header{
@@ -751,4 +857,9 @@ nav{
 .footer__bar{
     text-align: center;
 }
+
+.ttrainer__grid{
+    grid-template-columns: 1fr;
+}
+
 }

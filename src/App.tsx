@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import Images from "./pages/Image";
 import Review from "./pages/Review";
-import HomeImage from "./pages/HomeImage";
 
 export default function App() {
   return (
@@ -15,8 +14,6 @@ export default function App() {
         <Route path="/service" element={<Pricing/>}/>
         <Route path="/about" element={<Images/>}/>
         <Route path="/review" element={<Review/>}/>
-        <Route path="/homeimage" element={<HomeImage/>}/>
-
     </Routes>
 );
 }
