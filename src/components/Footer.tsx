@@ -30,16 +30,16 @@ export default function Footer() {
 
         {/*column footer*/}
         <div className="footer__col">
-          <h4>Company</h4>
+          <h4>Empresa</h4>
           <a href="#">Bussiness</a>
           <a href="#">Franchise</a>
-          <a href="#">Partnership</a>
+          <a href="#">Parceiros</a>
           <a href="#">Network</a>
         </div>
 
         {/*column footer*/}
         <div className="footer__col">
-          <h4>About Us</h4>
+          <h4>Sobre nós</h4>
           <a href="#">Blogs</a>
           <a href="#">Security</a>
           <a href="#">Careers</a>
@@ -47,16 +47,16 @@ export default function Footer() {
 
         {/*column footer*/}
         <div className="footer__col">
-          <h4>Contact</h4>
-          <a href="#">Contact us</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms & Conditions</a>
-          <a href="#">BMI Calculator</a>
+          <h4>Contato</h4>
+          <a href="#">Entre em Contato</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos e condições</a>
+          <a href="#">Calculadora de IMC</a>
         </div>
       </footer>
 
       <div className="footer__bar">
-        © 2026 Academia. Todos os direitos reservados.
+        © 2026 R4 G. Todos os direitos reservados.
       </div>
      
     </>

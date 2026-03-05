@@ -5,7 +5,16 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggleMenu() {
-    setIsOpen(!isOpen);
+    const newState = !isOpen;
+    setIsOpen(newState);
+  
+    if (newState) {
+      document.body.classList.add("no-scroll");
+      document.documentElement.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+      document.documentElement.classList.remove("no-scroll");
+    }
   }
 
   return (
