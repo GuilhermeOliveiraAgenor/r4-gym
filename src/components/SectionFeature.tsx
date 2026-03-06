@@ -7,13 +7,11 @@ export default function SectionFeature() {
       <section className="section__container join_container">
 
         {/*header*/}
-        <h2 className="section__header">WHY JOIN US ?</h2>
+        <h2 className="section__header">VIVA O MOVIMENTO</h2>
 
         <p className="section__subheader">
-          Our Diverse membership creates a friendly and supportive atmosphere,
-          where you can make friends and stay motivated
+        Cada treino é um passo a mais no caminho da evolução constante para alcançar a sua melhor versão
         </p>
-
         {/*image*/}
         <div className="join__image">
 
@@ -23,31 +21,22 @@ export default function SectionFeature() {
           <div className="join__grid">
 
             <div className="join__card">
-              <span><i className="ri-user-fill"></i></span>
-
-              <div className="join__card__content">
-                <h4>Personal Trainer</h4>
-                <p>Unlock your potential with our expert Personal Trainers</p>
-              </div>
+              
             </div>
 
             {/*card*/}
-            <div className="join__card">
-              <span><i className="ri-vidicon-fill"></i></span>
+            <div className="join__card join__card--cta">
+  <span><i className="ri-calendar-check-fill"></i></span>
 
-              <div className="join__card__content">
-                <h4>Practice session</h4>
-                <p>Elevate your fitness with practice sessions.</p>
-              </div>
-            </div>
-
+  <div className="join__card__content">
+    <h4>AGENDAR aula experimental</h4>
+  </div>
+</div>
             {/*card*/}
             <div className="join__card">
-              <span><i className="ri-building-fill"></i></span>
 
               <div className="join__card__content">
-                <h4>Good management</h4>
-                <p>Supportive management, for your fitness success</p>
+               
               </div>
             </div>
 

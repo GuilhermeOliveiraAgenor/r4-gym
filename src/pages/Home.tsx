@@ -9,11 +9,12 @@ export default function Home() {
   return (
     <>
       <Nav/>
-      <SectionHero />
-    <SectionImage />
+     
+       <SectionHero />
+ <SectionImage />
     <SectionFeature />
       <SectionHome />
       <Footer/>
-    </>
+    </> 
   );
 }

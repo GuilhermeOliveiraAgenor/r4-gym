@@ -13,7 +13,7 @@ export default function SectionImage() {
           <img src={class2} alt="class" className="class__img-2" />
         </div>
         <div className="class__content">
-          <h2 className="section__header">VIVA O MOVIMENTO</h2>
+          <h2 className="section__header">SEU CORPO SAUDÁVEL</h2>
           <p>
             Oferecemos treinos completos para <b>transformar</b> seu corpo e sua <b>saúde </b>
              com musculação focada em hipertrofia e emagrecimento, aliado ao acompanhamento de 
