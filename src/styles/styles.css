@@ -408,6 +408,10 @@
 
         /*section features*/
 
+        .join_container{
+            padding-bottom: 11rem;
+        }
+
         .join__image{
             margin-top: 4rem;
             position: relative;
@@ -916,8 +920,12 @@
          
 
 .join__image{
-    margin-top: 3rem; /* antes estava 4rem */
+    margin-top: 3rem; 
 }
+.join_container{
+    padding-bottom: 7rem;
+}
+
 
             .explore__header{
             flex-direction: column;
@@ -927,9 +935,7 @@
             grid-template-columns: repeat(1, 1fr);
         }
 
-       .join__container{
-    margin-bottom: 10rem; /* diminui espaço que estava quebrando */
-  }
+      
 
   .join__grid{
     width: 100%;
