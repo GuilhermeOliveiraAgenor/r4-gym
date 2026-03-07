@@ -20,25 +20,17 @@ export default function SectionFeature() {
           {/*card*/}
           <div className="join__grid">
 
-            <div className="join__card">
-              
-            </div>
+           
 
             {/*card*/}
             <div className="join__card join__card--cta">
   <span><i className="ri-calendar-check-fill"></i></span>
 
   <div className="join__card__content">
-    <h4>AGENDAR aula experimental</h4>
+    <h4>AGENDAR AULA EXPERIMENTAL</h4>
   </div>
 </div>
-            {/*card*/}
-            <div className="join__card">
-
-              <div className="join__card__content">
-               
-              </div>
-            </div>
+          
 
           </div>
 

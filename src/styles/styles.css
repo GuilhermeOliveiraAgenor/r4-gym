@@ -417,21 +417,20 @@
             border-radius: 10px;
         }
 
-        .join__grid{
+         .join__grid{
             position: absolute;
-            bottom: -5rem;
+            bottom: -11rem;
             width: calc(100% - 4rem);
             padding: 1.75rem;
             margin: 0 2rem;
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
-            background-color: var(--primary-color-light);
             border-radius: 10px;
         }
 
         .join__card{
-            flex: 1 1 250px;
+            flex: none;
             display: flex;
             align-items: center;
             gap: 1rem;
@@ -441,7 +440,6 @@
             padding: 5px;
             font-size: 1.75rem;
             color: var(--white);
-            background-color: var(--secondary-color-dark);
             border-radius: 5px;
         }
 
@@ -458,11 +456,19 @@
 
         .join__card--cta{
             background: var(--secondary-color);
-            padding: 1rem 1.5rem;
+            padding: 1rem 5rem;
             border-radius: 8px;
             cursor: pointer;
             transition: 0.3s;
+            width: fit-content;      /* diminui largura */
+    margin: auto;            /* centraliza */
 
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza horizontal */
+
+    gap: 0.5rem;             /* espaço ícone texto */
+    text-align: center;
             
         }
         
@@ -470,16 +476,14 @@
             background: var(--secondary-color-dark);
         }
         
-        .join__card--cta span{
-            background: rgba(255,255,255,0.15);
-        }
-        
+
         .join__card--cta h4{
             color: var(--white);
             font-weight: 600;
             white-space: nowrap;
 
         }
+
 
         /*section price cards*/
 
@@ -908,6 +912,13 @@
 
     }
         @media (width < 600px){
+
+         
+
+.join__image{
+    margin-top: 3rem; /* antes estava 4rem */
+}
+
             .explore__header{
             flex-direction: column;
         }
@@ -916,15 +927,33 @@
             grid-template-columns: repeat(1, 1fr);
         }
 
-        .join__container{
-            margin-bottom: 15rem;
-        }
+       .join__container{
+    margin-bottom: 10rem; /* diminui espaço que estava quebrando */
+  }
 
-        .join__grid{
-            width: 100%;
-            margin: 0;
-            bottom: -20rem;
-        }
+  .join__grid{
+    width: 100%;
+    margin: 0;
+    bottom: -8rem; /* antes -20rem quebrava layout */
+    justify-content: center;
+  }
+
+  /* botão menor e centralizado */
+  .join__card--cta{
+    max-width: 275px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: .7rem 1rem;
+  }
+
+  .join__card--cta h4{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .join__card--cta span{
+    font-size: 1.2rem;
+  }
 
         .price__grid{
             grid-template-columns: repeat(1, 1fr);
