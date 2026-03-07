@@ -52,6 +52,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: .3s;
+            font-weight: 600;
         }
 
         .btn:hover{
@@ -196,6 +197,12 @@
             grid-template-columns: repeat(2, 1fr);
             align-items: center;
             gap: 2rem;
+        }
+
+        .hero{
+            font-weight: 600;
+            color: var(--white);
+white-space: nowrap;
         }
 
         .header__container::before{
@@ -445,13 +452,13 @@
             font-size: 1.75rem;
             color: var(--white);
             border-radius: 5px;
+            
         }
 
         .join__card h4{
-            margin-bottom: .5rem;
-            font-size: 1.2rem;
-            font-weight: 500;
-            color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
         }
 
         .join__card p{
@@ -797,12 +804,12 @@
         }
 
         .ttrainer__socials a{
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             color: var(--text-light);
         }
 
         .ttrainer__socials a:hover{
-            color: var(--primary-color)
+            color: var(--secondary-color)
         }
 
         .whatsapp__float {
@@ -926,7 +933,6 @@
     padding-bottom: 7rem;
 }
 
-
             .explore__header{
             flex-direction: column;
         }
@@ -946,14 +952,16 @@
 
   /* botão menor e centralizado */
   .join__card--cta{
-    max-width: 275px;
+    max-width: 320px;
     margin: 0 auto;
     justify-content: center;
     padding: .7rem 1rem;
+
+    
   }
 
   .join__card--cta h4{
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     text-align: center;
   }
 

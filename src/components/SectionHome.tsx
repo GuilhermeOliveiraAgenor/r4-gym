@@ -14,10 +14,9 @@ export default function SectionHome() {
                         <h5></h5>
                         <hr />
                         <div className="ttrainer__socials">
-                            <a href="#"><i className="ri-facebook-fill"></i></a>
+                            <a href="#"><i className="ri-whatsapp-line"></i></a>
                             <a href="#"><i className="ri-google-fill"></i></a>
                             <a href="#"><i className="ri-instagram-fill"></i></a>
-                            <a href="#"><i className="ri-twitter-fill"></i></a>
                         </div>
                     </div>
                 </div>

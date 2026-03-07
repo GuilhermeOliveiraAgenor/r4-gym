@@ -15,7 +15,7 @@ export default function SectionHero() {
           <h1><span>VENHA</span> PARA A R4 GYM</h1>
 
           <p>
-            Marque sua aula experimental GRÁTIS
+            Marque sua aula experimental <span className="hero">GRÁTIS</span>
           </p>
           {/*button hero*/}
           <button className="btn">COMECE AGORA</button>

@@ -15,9 +15,7 @@ export default function Footer() {
             <img src={logo} alt="logo" />
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Unde corrupti molestiae, voluptatem non ipsam impedit
-            numquam neque nisi fugiat
+           Cuidar do corpo e da mente é um estilo de vida construído com hábitos consistentes.
           </p>
 
           {/*logo social media*/}
@@ -31,8 +29,8 @@ export default function Footer() {
         {/*column footer*/}
         <div className="footer__col">
           <h4>Empresa</h4>
-          <a href="#">Bussiness</a>
-          <a href="#">Franchise</a>
+          <a href="#">Negócios</a>
+          <a href="#">Franquias</a>
           <a href="#">Parceiros</a>
           <a href="#">Network</a>
         </div>
@@ -41,8 +39,8 @@ export default function Footer() {
         <div className="footer__col">
           <h4>Sobre nós</h4>
           <a href="#">Blogs</a>
-          <a href="#">Security</a>
-          <a href="#">Careers</a>
+          <a href="#">Segurança</a>
+          <a href="#">Carreira</a>
         </div>
 
         {/*column footer*/}
@@ -51,12 +49,12 @@ export default function Footer() {
           <a href="#">Entre em Contato</a>
           <a href="#">Política de Privacidade</a>
           <a href="#">Termos e condições</a>
-          <a href="#">Calculadora de IMC</a>
+          <a href="https://abeso.org.br/calculadora-imc">Calculadora de IMC</a>
         </div>
       </footer>
 
       <div className="footer__bar">
-        © 2026 R4 G. Todos os direitos reservados.
+        © 2026 R4 Gym. Todos os direitos reservados.
       </div>
      
     </>
