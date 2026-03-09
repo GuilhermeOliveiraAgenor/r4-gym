@@ -495,6 +495,43 @@ white-space: nowrap;
 
         }
 
+        /*image clickable*/ 
+
+        .clickable__image{
+            cursor: pointer;
+            transition: transform .3s;
+          }
+          
+          .clickable__image:hover{
+            transform: scale(1.05);
+          }
+          
+          /*modal*/
+          
+          .image__modal{
+            position: fixed;
+            inset: 0;
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+            backdrop-filter: blur(8px);
+            background: rgba(0,0,0,0.6);
+          
+            z-index: 9999;
+          }
+          
+          /*image*/
+          
+          .image__modal__content{
+            max-width: 60%;
+            max-height: 90vh;
+        
+            border-radius: 10px;
+          
+            box-shadow: 0 20px 50px rgba(0,0,0,.6);
+          }
 
         /*section price cards*/
 
@@ -774,6 +811,11 @@ white-space: nowrap;
             object-fit: cover;   
         }
 
+
+        .ttrainer__card img.treino__image{
+            height: 600px;
+        }
+        
         .ttrainer__content{
             padding: 2rem 1rem;
         }
@@ -839,6 +881,29 @@ white-space: nowrap;
             transform: scale(1.1);
         }
 
+        .bold__footer{
+            font-weight: 600;
+        }
+
+        .schedule__section{
+            width: 100%;
+            background: var(--secondary-color);
+            padding: 1rem 1rem;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            text-align: center;
+        }
+        
+        .schedule__section h2{
+            color: var(--white);
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
         /*tablet responsive*/
 
         @media (width < 900px){
@@ -870,6 +935,9 @@ white-space: nowrap;
             .footer__container{
                 grid-template-columns: 1fr 200px;
             }
+            .no-break{
+                white-space: nowrap;
+              }
         }
 
     /*smartphone responsive*/
@@ -932,6 +1000,14 @@ white-space: nowrap;
 .join_container{
     padding-bottom: 7rem;
 }
+
+.image__modal__content{
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.6);
+  }
+
 
             .explore__header{
             flex-direction: column;

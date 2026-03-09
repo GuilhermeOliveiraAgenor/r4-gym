@@ -25,7 +25,7 @@ export default function Nav() {
           <li className="link"><a href="/review">Localização</a></li>
         </ul>
 
-        <button className="btn">Comece Agora</button>
+        <button className="btn">Aula Experimental</button>
 
         {/* ICON MOBILE */}
         <div className="menu__icon" onClick={toggleMenu}>

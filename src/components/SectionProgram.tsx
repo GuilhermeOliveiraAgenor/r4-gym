@@ -1,5 +1,10 @@
+import member from "../assets/class-1.jpg"
+import { useState } from "react";
 
 export default function SectionProgram() {
+
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <>
      {/*section*/}
@@ -57,6 +62,45 @@ export default function SectionProgram() {
           </div>
         </div>
       </section>
+      <div className="schedule__section">
+        
+        <a href=""><h2>MARQUE SUA AULA EXPERIMENTAL AGORA</h2></a>
+      </div>
+      <section className="ssection__container ttrainer__container" id="ttrainer">
+        <div className="ttrainer__grid">
+
+          <div className="ttrainer__card">
+            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+          </div>
+
+          <div className="ttrainer__card">
+            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+          </div>
+
+          <div className="ttrainer__card">
+            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+          </div>
+
+          <div className="ttrainer__card">
+            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+          </div>
+
+          <div className="ttrainer__card">
+            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+          </div>
+
+          <div className="ttrainer__card">
+            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+          </div>
+
+        </div>
+      </section>
+
+      {selectedImage && (
+        <div className="image__modal" onClick={() => setSelectedImage(null)}>
+          <img src={selectedImage} alt="preview" className="image__modal__content"/>
+        </div>
+      )}
     </>
   );
 }
