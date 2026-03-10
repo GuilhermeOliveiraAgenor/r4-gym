@@ -37,13 +37,12 @@ export default function SectionHome() {
                     </div>
                 </div>
                 <div className="ttrainer__card">
-  <img
-    src={treino}
-    alt="treino"
-    onClick={() => setSelectedImage(treino)}
-    className="clickable__image treino__image"
-  />
-</div>
+                <img
+                    src={treino}
+                    alt="treino"
+                    className="clickable__image treino__image"
+                />
+                </div>
                 <div className="ttrainer__card">
                     <div className="ttrainer__content">
                         <h4>Confira nossas Aulas</h4>

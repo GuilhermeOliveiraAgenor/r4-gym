@@ -40,6 +40,8 @@
             margin: auto;
             text-align: center;
             color: var(--text-light);
+            font-style: italic;
+            font-size: 1.1rem;
         }
 
         .btn{
@@ -415,30 +417,50 @@ white-space: nowrap;
 
         /*section features*/
 
-        .join_container{
-            padding-bottom: 11rem;
-        }
+          .join__layout{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 3rem;
+          }
 
-        .join__image{
-            margin-top: 4rem;
-            position: relative;
-        }
+          .join_container{
+            margin-top: 5rem;
+          }
 
-        .join__image img{
-            border-radius: 10px;
-        }
+          .join__content{
+            height: 100%;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            gap: 12rem;
+          }
+          
+          .join__content .section__header{
+            text-align: center;
+            margin: 0;
+          }
+          
+          .join__content .section__subheader{
+            text-align: center;
+            margin: 0;
+          }
 
-         .join__grid{
-            position: absolute;
-            bottom: -11rem;
-            width: calc(100% - 4rem);
-            padding: 1.75rem;
-            margin: 0 2rem;
+          
+          .join__content .section__subheader{
+            text-align: center;
+            margin: 0;
+          }
+          .join__image{
             display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
+            justify-content: center;
+          }
+          
+          .join__video{
+            height: 570px;
+            width: 390px;
             border-radius: 10px;
-        }
+            object-fit: cover;
+          }
 
         .join__card{
             flex: none;
@@ -456,9 +478,9 @@ white-space: nowrap;
         }
 
         .join__card h4{
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: var(--white);
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--white);
         }
 
         .join__card p{
@@ -467,20 +489,17 @@ white-space: nowrap;
 
         .join__card--cta{
             background: var(--secondary-color);
-            padding: 1rem 5rem;
+            padding: 0.6rem 3rem;
             border-radius: 8px;
             cursor: pointer;
             transition: 0.3s;
             width: fit-content;      /* diminui largura */
-    margin: auto;            /* centraliza */
-
-    display: flex;
-    align-items: center;
-    justify-content: center; /* centraliza horizontal */
-
-    gap: 0.5rem;             /* espaço ícone texto */
-    text-align: center;
-            
+            margin: auto;            /* centraliza */
+            display: flex;
+            align-items: center;
+            justify-content: center; /* centraliza horizontal */
+            gap: 0.5rem;             /* espaço ícone texto */
+            text-align: center;
         }
         
         .join__card--cta:hover{
@@ -492,7 +511,6 @@ white-space: nowrap;
             color: var(--white);
             font-weight: 600;
             white-space: nowrap;
-
         }
 
         /*image clickable*/ 
@@ -531,6 +549,15 @@ white-space: nowrap;
             border-radius: 10px;
           
             box-shadow: 0 20px 50px rgba(0,0,0,.6);
+          }
+
+          /*video*/
+
+          .video__modal__content{
+            max-width: 800px;
+            width: 900%;
+            max-height: 90vh;
+            border-radius: 10px;
           }
 
         /*section price cards*/
@@ -979,11 +1006,53 @@ white-space: nowrap;
             overflow: hidden;
           }
 
+          
         .menu__icon {
             display: block;
         }
 
-      
+        .join__layout{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+          }
+          
+          /* libera os filhos para o layout principal */
+          .join__content{
+            display: contents;
+          }
+          
+          /* ordem dos elementos */
+          .section__header{
+            order: 1;
+          }
+          
+          .section__subheader{
+            order: 2;
+          }
+          
+          .join__image{
+            order: 3;
+          }
+          
+          .join__card--cta{
+            order: 4;
+            margin-top: 1.5rem;
+          }
+          .join__content .section__header{
+            text-align: center;
+          }
+          
+          .join__content .section__subheader{
+            text-align: center;
+          }
+          
+          .join__video{
+            width: 390px;
+            border-radius: 10px;
+            object-fit: cover;
+          }
 
         .ttrainer__grid{
             grid-template-columns: repeat(2, 1fr);
@@ -992,8 +1061,6 @@ white-space: nowrap;
     }
         @media (width < 600px){
 
-         
-
 .join__image{
     margin-top: 3rem; 
 }
@@ -1001,10 +1068,17 @@ white-space: nowrap;
     padding-bottom: 7rem;
 }
 
+.join__video{
+    width: 390px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
 .image__modal__content{
     max-width: 90%;
     max-height: 90vh;
     border-radius: 10px;
+  
     box-shadow: 0 20px 50px rgba(0,0,0,.6);
   }
 
@@ -1071,4 +1145,33 @@ white-space: nowrap;
             grid-template-columns: 1fr;
         }
 
+        }
+
+        @media (width < 420px){
+            .join__video{
+                width: 370px;
+                border-radius: 10px;
+                object-fit: cover;
+              }
+        }
+        @media (width < 400px){
+            .join__video{
+                width: 345px;
+                border-radius: 10px;
+                object-fit: cover;
+              }
+        }
+        @media (width < 376px){
+            .join__video{
+                width: 320px;
+                border-radius: 10px;
+                object-fit: cover;
+              }
+        }
+        @media (width < 361px){
+            .join__video{
+                width: 305px;
+                border-radius: 10px;
+                object-fit: cover;
+              }
         }
