@@ -1,4 +1,16 @@
-import member from "../assets/class-1.jpg"
+import estrutura1 from "../assets/estrutura-1.jpg"
+import estrutura2 from "../assets/estrutura-2.jpg"
+import estrutura3 from "../assets/estrutura-3.jpg"
+import estrutura4 from "../assets/estrutura-4.jpg"
+import estrutura5 from "../assets/estrutura-5.jpg"
+import entrada2 from "../assets/entrada-2.jpg"
+import fachada from "../assets/fachada.jpg"
+import haltere from "../assets/haltere.png"
+import aparelho from "../assets/aparelho.png"
+import aparelho2 from "../assets/aparelho-2.png"
+import aparelho3 from "../assets/aparelho-3.png"
+
+
 import { useState } from "react";
 
 export default function SectionProgram() {
@@ -70,28 +82,35 @@ export default function SectionProgram() {
         <div className="ttrainer__grid">
 
           <div className="ttrainer__card">
-            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+            <img src={estrutura2} alt="member" onClick={() => setSelectedImage(estrutura2)} className="clickable__image"/>
           </div>
 
           <div className="ttrainer__card">
-            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+            <img src={entrada2} alt="member" onClick={() => setSelectedImage(entrada2)} className="clickable__image"/>
           </div>
 
           <div className="ttrainer__card">
-            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+            <img src={estrutura4} alt="member" onClick={() => setSelectedImage(estrutura4)} className="clickable__image"/>
           </div>
 
           <div className="ttrainer__card">
-            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+            <img src={fachada} alt="member" onClick={() => setSelectedImage(fachada)} className="clickable__image"/>
           </div>
 
           <div className="ttrainer__card">
-            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
+            <img src={estrutura3} alt="member" onClick={() => setSelectedImage(estrutura3)} className="clickable__image"/>
           </div>
 
-          <div className="ttrainer__card">
-            <img src={member} alt="member" onClick={() => setSelectedImage(member)} className="clickable__image"/>
-          </div>
+<div className="ttrainer__card">
+
+<img 
+  src={aparelho} 
+  alt="member" 
+  onClick={() => setSelectedImage(aparelho3)} 
+  className="clickable__image haltere__image"
+/>
+</div>
+         
 
         </div>
       </section>

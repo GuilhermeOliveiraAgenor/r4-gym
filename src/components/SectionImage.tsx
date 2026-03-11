@@ -1,5 +1,5 @@
-  import class2 from "../assets/class-2.jpg";
-  import estrutura2 from "../assets/estrutura-2.jpg"
+import class2 from "../assets/class-2.jpg";
+import estrutura2 from "../assets/estrutura-2.jpg"
 
   export default function SectionImage() {
     return (
