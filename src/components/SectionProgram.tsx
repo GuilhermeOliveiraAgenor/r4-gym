@@ -98,7 +98,7 @@ export default function SectionProgram() {
           </div>
 
           <div className="ttrainer__card">
-            <img src={estrutura3} alt="member" onClick={() => setSelectedImage(estrutura3)} className="clickable__image"/>
+            <img src={estrutura3} alt="member"  onClick={() => setSelectedImage(estrutura3)} className="clickable__image"/>
           </div>
 
 <div className="ttrainer__card">
@@ -106,8 +106,8 @@ export default function SectionProgram() {
 <img 
   src={aparelho} 
   alt="member" 
-  onClick={() => setSelectedImage(aparelho3)} 
-  className="clickable__image haltere__image"
+  onClick={() => setSelectedImage(aparelho)} 
+  className="clickable__image aparelho__image"
 />
 </div>
          
@@ -116,10 +116,16 @@ export default function SectionProgram() {
       </section>
 
       {selectedImage && (
-        <div className="image__modal" onClick={() => setSelectedImage(null)}>
-          <img src={selectedImage} alt="preview" className="image__modal__content"/>
-        </div>
-      )}
+  <div className="image__modal" onClick={() => setSelectedImage(null)}>
+    <img
+      src={selectedImage}
+      alt="preview"
+      className={`image__modal__content ${
+        selectedImage === aparelho ? "aparelho__modal" : ""
+      }`}
+    />
+  </div>
+)}
     </>
   );
 }
