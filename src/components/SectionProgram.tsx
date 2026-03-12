@@ -94,11 +94,11 @@ export default function SectionProgram() {
           </div>
 
           <div className="ttrainer__card">
-            <img src={fachada} alt="member" onClick={() => setSelectedImage(fachada)} className="clickable__image"/>
+            <img src={estrutura3} alt="member" onClick={() => setSelectedImage(estrutura3)} className="clickable__image"/>
           </div>
 
           <div className="ttrainer__card">
-            <img src={estrutura3} alt="member"  onClick={() => setSelectedImage(estrutura3)} className="clickable__image"/>
+            <img src={fachada} alt="member"  onClick={() => setSelectedImage(fachada)} className="clickable__image"/>
           </div>
 
 <div className="ttrainer__card">

@@ -19,14 +19,11 @@ export default function SectionFeature() {
             Cada treino é um passo a mais no caminho da evolução constante
             para alcançar a sua melhor versão
           </p>
-
           <div className="join__card join__card--cta">
             <span><i className="ri-calendar-check-fill"></i></span>
             <h4>AGENDAR AULA EXPERIMENTAL</h4>
           </div>
         </div>
-
-        {/* lado direito */}
         <div className="join__image">
           <video
             src={video}

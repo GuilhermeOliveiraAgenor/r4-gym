@@ -2,6 +2,7 @@ import { useState } from "react";
 import estrutura3 from "../assets/estrutura-3.jpg"
 import estrutura4 from "../assets/estrutura-4.jpg"
 import treino from "../assets/treino.png"
+import aparelho from "../assets/aparelho.png"
 
 export default function SectionHome() {
 
@@ -26,8 +27,9 @@ export default function SectionHome() {
                         </div>
                     </div>
                 </div>
-                <div className="ttrainer__card">
-                    <img src={estrutura3} alt="estrutura3" onClick={() => setSelectedImage(estrutura3)} className="clickable__image"/>
+                <div className="ttrainer__card ">
+                    
+                    <img src={aparelho} alt="aparelho" onClick={() => setSelectedImage(aparelho)} className="clickable__image aparelho__image"/>
                 </div>
                 <div className="ttrainer__card">
                     <div className="ttrainer__content">
@@ -40,6 +42,7 @@ export default function SectionHome() {
                 <img
                     src={treino}
                     alt="treino"
+                    onClick={() => setSelectedImage(treino)}
                     className="clickable__image treino__image"
                 />
                 </div>
@@ -55,8 +58,13 @@ export default function SectionHome() {
         </section>
         {selectedImage && (
         <div className="image__modal" onClick={() => setSelectedImage(null)}>
-          <img src={selectedImage} alt="preview" className="image__modal__content"/>
-        </div>
+<img
+  src={selectedImage}
+  alt="preview"
+  className={`image__modal__content ${
+    selectedImage === aparelho || selectedImage === treino ? "aparelho__modal" : ""
+  }`}
+/>        </div>
       )}
       </>
     );
