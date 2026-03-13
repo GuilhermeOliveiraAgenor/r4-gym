@@ -1,5 +1,4 @@
 import { useState } from "react";
-import estrutura3 from "../assets/estrutura-3.jpg"
 import estrutura4 from "../assets/estrutura-4.jpg"
 import treino from "../assets/treino.png"
 import aparelho from "../assets/aparelho.png"
