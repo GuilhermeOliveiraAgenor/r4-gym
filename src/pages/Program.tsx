@@ -5,9 +5,9 @@ import SectionProgram from "../components/SectionProgram";
 export default function Program() {
   return (
     <>
-      <Nav/>
-      <SectionProgram/>
-      <Footer/>
+      <Nav />
+      <SectionProgram />
+      <Footer />
     </>
   );
 }

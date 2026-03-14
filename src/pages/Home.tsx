@@ -8,13 +8,13 @@ import SectionImage from "../components/SectionImage";
 export default function Home() {
   return (
     <>
-      <Nav/>
-     
-       <SectionHero />
- <SectionImage />
-    <SectionFeature />
+      <Nav />
+
+      <SectionHero />
+      <SectionImage />
+      <SectionFeature />
       <SectionHome />
-      <Footer/>
-    </> 
+      <Footer />
+    </>
   );
 }

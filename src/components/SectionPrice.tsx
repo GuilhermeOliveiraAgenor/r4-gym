@@ -1,13 +1,12 @@
-
 export default function SectionPrice() {
   return (
     <>
-    {/*section price cards*/}
-    <section className="section__container price__container">
+      {/*section price cards*/}
+      <section className="section__container price__container">
         <h2 className="section__header">OUR PRICING PLAN</h2>
         <p className="section__subheader">
-          Our pricing plan comes with various membership tiers, each tailored
-          to cater to different preferences and fitness aspirations.
+          Our pricing plan comes with various membership tiers, each tailored to cater to different
+          preferences and fitness aspirations.
         </p>
         <div className="price__grid">
           {/*card*/}

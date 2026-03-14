@@ -1,13 +1,12 @@
-
 import logo from "../assets/logo.png";
 
 export default function Footer() {
   return (
     <>
-    {/*footer*/}
-    <footer className="section__container footer__container">
-            <span className="bg__blur"></span>
-            <span className="bg__blur footer__blur"></span>
+      {/*footer*/}
+      <footer className="section__container footer__container">
+        <span className="bg__blur"></span>
+        <span className="bg__blur footer__blur"></span>
 
         {/*logo*/}
         <div className="footer__col">
@@ -15,21 +14,26 @@ export default function Footer() {
             <img src={logo} alt="logo" />
           </div>
           <p>
-          Av. Santa Bernadethe, 2105 - Fanny, <span className="no-break">Curitiba - PR</span>
-  <br />
-  <br />
-  
-  <span className="bold__footer">Horário de funcionamento:</span>
-  <br />
-   Segunda a Sexta:  06:00 - 22:00
-  <br />
-  Sábado: 08:00 - 13:00
-</p>
+            Av. Santa Bernadethe, 2105 - Fanny, <span className="no-break">Curitiba - PR</span>
+            <br />
+            <br />
+            <span className="bold__footer">Horário de funcionamento:</span>
+            <br />
+            Segunda a Sexta: 06:00 - 22:00
+            <br />
+            Sábado: 08:00 - 13:00
+          </p>
           {/*logo social media*/}
           <div className="footer__socials">
-            <a href="#"><i className="ri-whatsapp-line"></i></a>
-            <a href="#"><i className="ri-facebook-circle-fill"></i></a>
-            <a href="#"><i className="ri-instagram-fill"></i></a>
+            <a href="#">
+              <i className="ri-whatsapp-line"></i>
+            </a>
+            <a href="#">
+              <i className="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="#">
+              <i className="ri-instagram-fill"></i>
+            </a>
           </div>
         </div>
 
@@ -60,10 +64,7 @@ export default function Footer() {
         </div>
       </footer>
 
-      <div className="footer__bar">
-        © 2026 R4 Gym. Todos os direitos reservados.
-      </div>
-     
+      <div className="footer__bar">© 2026 R4 Gym. Todos os direitos reservados.</div>
     </>
   );
 }

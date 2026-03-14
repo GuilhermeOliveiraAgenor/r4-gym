@@ -10,14 +10,14 @@ import WhatsappButton from "./components/WhatsappButton";
 export default function App() {
   return (
     <>
-    <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/program" element={<Program/>} />
-        <Route path="/service" element={<Pricing/>}/>
-        <Route path="/about" element={<Images/>}/>
-        <Route path="/review" element={<Review/>}/>
-    </Routes>
-    <WhatsappButton />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/program" element={<Program />} />
+        <Route path="/service" element={<Pricing />} />
+        <Route path="/about" element={<Images />} />
+        <Route path="/review" element={<Review />} />
+      </Routes>
+      <WhatsappButton />
     </>
-);
+  );
 }

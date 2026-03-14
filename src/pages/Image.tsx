@@ -5,9 +5,9 @@ import SectionImage from "../components/SectionImage";
 export default function Images() {
   return (
     <>
-      <Nav/>
-      <SectionImage/>
-      <Footer/>
+      <Nav />
+      <SectionImage />
+      <Footer />
     </>
   );
 }
