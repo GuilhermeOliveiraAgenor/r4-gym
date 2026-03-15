@@ -649,26 +649,44 @@ b {
 
 .review {
   background-color: var(--primary-color-light);
+  margin-top: 1rem;
 }
 
 .review__container {
   display: flex;
   gap: 2rem;
+  align-items: flex-start;
+}
+
+/* joga o conteúdo para a esquerda */
+.review__content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 2rem;
+  align-items: start;
+  order: 1;
 }
 
 .review__container > span {
   font-size: 6rem;
   color: var(--secondary-color);
   opacity: 0.5;
+  order: 2;
+  margin-left: 5rem; /* empurra o ícone para a direita */
 }
 
 .review__content {
   flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: stretch; /* importante */
 }
 
-.review__content h4 {
+.review__content h1 {
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   font-weight: 600;
   color: var(--white);
 }
@@ -677,6 +695,47 @@ b {
   max-width: 800px;
   margin-bottom: 2rem;
   color: var(--text-light);
+}
+
+.review__left {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* topo | meio | bottom */
+  height: 100%;
+  text-align: center;
+}
+
+.review__left h1 {
+  margin-bottom: 2rem;
+}
+
+.review__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.review__description p {
+  color: var(--white);
+  font-size: 1.3rem;
+  line-height: 1.7;
+  max-width: 420px;
+  font-weight: 600;
+}
+.review__hours {
+  margin-top: auto;
+}
+
+.review__hours p {
+  color: var(--white);
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.review__map iframe {
+  width: 122%;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
 }
 
 .review__rating span {
@@ -989,6 +1048,39 @@ b {
   .no-break {
     white-space: nowrap;
   }
+  .review__content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .review__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review__container > span {
+    position: absolute;
+    right: 30px;
+    overflow: hidden;
+  }
+
+  .review__content {
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .review__map {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .review__map iframe {
+    width: 100%;
+    max-width: 750px;
+    height: 380px;
+  }
 }
 
 /*smartphone responsive*/
@@ -1079,6 +1171,18 @@ b {
 
   .ttrainer__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .review__content {
+    grid-template-columns: 1fr;
+  }
+
+  .review__map iframe {
+    width: 100%;
+    height: 350px;
+  }
+
+  .review__container > span {
+    display: none;
   }
 }
 @media (width < 600px) {
