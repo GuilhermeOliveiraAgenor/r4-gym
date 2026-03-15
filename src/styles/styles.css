@@ -184,7 +184,7 @@ nav {
   width: 50%;
 }
 
-/*Hero*/
+/*hero*/
 
 .header__container {
   position: relative;
@@ -424,9 +424,9 @@ b {
 .join__content {
   height: 100%;
   display: grid;
-  grid-template-rows: auto 2fr auto; /* topo | meio | baixo */
-  justify-items: center; /* centraliza horizontalmente */
-  align-items: center; /* centraliza os itens dentro das linhas */
+  grid-template-rows: auto 2fr auto;
+  justify-items: center;
+  align-items: center;
 }
 
 .join__content .section__header {
@@ -468,7 +468,7 @@ b {
   object-fit: cover;
   position: relative;
   z-index: 1;
-  margin: auto; /* centraliza */
+  margin: auto;
 }
 
 .join__card {
@@ -500,12 +500,12 @@ b {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
-  width: fit-content; /* diminui largura */
-  margin: auto; /* centraliza */
+  width: fit-content;
+  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center; /* centraliza horizontal */
-  gap: 0.5rem; /* espaço ícone texto */
+  justify-content: center;
+  gap: 0.5rem;
   text-align: center;
 }
 
@@ -658,7 +658,6 @@ b {
   align-items: flex-start;
 }
 
-/* joga o conteúdo para a esquerda */
 .review__content {
   flex: 1;
   display: grid;
@@ -673,7 +672,7 @@ b {
   color: var(--secondary-color);
   opacity: 0.5;
   order: 2;
-  margin-left: 5rem; /* empurra o ícone para a direita */
+  margin-left: 5rem;
 }
 
 .review__content {
@@ -681,7 +680,7 @@ b {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  align-items: stretch; /* importante */
+  align-items: stretch;
 }
 
 .review__content h1 {
@@ -699,7 +698,7 @@ b {
 
 .review__left {
   display: grid;
-  grid-template-rows: auto 1fr auto; /* topo | meio | bottom */
+  grid-template-rows: auto 1fr auto;
   height: 100%;
   text-align: center;
 }
@@ -848,8 +847,6 @@ b {
   color: var(--white);
 }
 
-/**/
-
 .ssection__container {
   max-width: var(--max-width);
   margin: auto;
@@ -904,7 +901,7 @@ b {
 }
 
 .ttrainer__card {
-  min-height: 320px; /* aumenta altura */
+  min-height: 320px;
   display: grid;
   align-items: center;
 }
@@ -1132,12 +1129,10 @@ b {
     gap: 2rem;
   }
 
-  /* libera os filhos para o layout principal */
   .join__content {
     display: contents;
   }
 
-  /* ordem dos elementos */
   .section__header {
     order: 1;
   }
@@ -1219,11 +1214,10 @@ b {
   .join__grid {
     width: 100%;
     margin: 0;
-    bottom: -8rem; /* antes -20rem quebrava layout */
+    bottom: -8rem;
     justify-content: center;
   }
 
-  /* botão menor e centralizado */
   .join__card--cta {
     max-width: 320px;
     margin: 0 auto;

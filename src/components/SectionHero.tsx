@@ -3,7 +3,7 @@ import header from "../assets/header.png";
 export default function SectionHero() {
   return (
     <>
-      {/*Hero*/}
+      {/*hero*/}
       <header className="section__container header__container">
         {/*title hero*/}
         <div className="header__content">

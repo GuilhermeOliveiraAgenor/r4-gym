@@ -8,7 +8,7 @@ import aparelho from "../assets/aparelho.png";
 import { useState } from "react";
 
 export default function SectionProgram() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
     <>

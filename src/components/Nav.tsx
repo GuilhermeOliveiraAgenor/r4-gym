@@ -37,16 +37,16 @@ export default function Nav() {
 
         <button className="btn">Aula Experimental</button>
 
-        {/* ICON MOBILE */}
+        {/* icon mobile */}
         <div className="menu__icon" onClick={toggleMenu}>
           <i className={isOpen ? "ri-close-line" : "ri-menu-line"}></i>
         </div>
       </nav>
 
-      {/* OVERLAY */}
+      {/* overlay */}
       <div className={`overlay ${isOpen ? "active" : ""}`} onClick={toggleMenu}></div>
 
-      {/* MENU MOBILE */}
+      {/* menu mobile */}
       <div className={`mobile__menu ${isOpen ? "active" : ""}`}>
         <ul>
           <li onClick={toggleMenu}>

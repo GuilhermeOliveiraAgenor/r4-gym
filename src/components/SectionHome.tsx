@@ -4,7 +4,7 @@ import treino from "../assets/treino.png";
 import aparelho from "../assets/aparelho.png";
 
 export default function SectionHome() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
     <>
