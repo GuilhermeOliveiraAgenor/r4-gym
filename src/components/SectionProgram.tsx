@@ -102,7 +102,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura2}
-              alt="member"
+              alt="estrutura2"
               onClick={() => setSelectedImage(estrutura2)}
               className="clickable__image"
             />
@@ -111,7 +111,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={entrada2}
-              alt="member"
+              alt="entrada2"
               onClick={() => setSelectedImage(entrada2)}
               className="clickable__image"
             />
@@ -120,7 +120,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura4}
-              alt="member"
+              alt="estrutura4"
               onClick={() => setSelectedImage(estrutura4)}
               className="clickable__image"
             />
@@ -129,7 +129,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura3}
-              alt="member"
+              alt="estrutura3"
               onClick={() => setSelectedImage(estrutura3)}
               className="clickable__image"
             />
@@ -138,7 +138,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={fachada}
-              alt="member"
+              alt="fachada"
               onClick={() => setSelectedImage(fachada)}
               className="clickable__image"
             />
@@ -147,7 +147,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={aparelho}
-              alt="member"
+              alt="aparelho"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
             />
