@@ -22,16 +22,16 @@ export default function Nav() {
             <a href="/">Menu</a>
           </li>
           <li className="link">
-            <a href="/program">Programas</a>
+            <a href="/programas">Programas</a>
           </li>
           <li className="link">
-            <a href="/service">Planos</a>
+            <a href="/planos">Planos</a>
           </li>
           <li className="link">
-            <a href="/about">Sobre</a>
+            <a href="/sobre">Sobre</a>
           </li>
           <li className="link">
-            <a href="/review">Localização</a>
+            <a href="/localizacao">Localização</a>
           </li>
         </ul>
 
@@ -53,16 +53,16 @@ export default function Nav() {
             <a href="/">Menu</a>
           </li>
           <li onClick={toggleMenu}>
-            <a href="/program">Programas</a>
+            <a href="/programas">Programas</a>
           </li>
           <li onClick={toggleMenu}>
-            <a href="/service">Planos</a>
+            <a href="/planos">Planos</a>
           </li>
           <li onClick={toggleMenu}>
-            <a href="/about">Sobre</a>
+            <a href="/sobre">Sobre</a>
           </li>
           <li onClick={toggleMenu}>
-            <a href="/review">Localização</a>
+            <a href="/localizacao">Localização</a>
           </li>
         </ul>
 

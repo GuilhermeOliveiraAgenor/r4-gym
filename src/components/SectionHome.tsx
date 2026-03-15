@@ -61,8 +61,9 @@ export default function SectionHome() {
           </div>
           <div className="ttrainer__card">
             <div className="ttrainer__content">
-              <h4>Confira nossas Aulas</h4>
-              {/*link section program*/}
+              <a href="/programas">
+                <h4>Confira nossas Aulas</h4>
+              </a>
               <h5></h5>
               <hr />
             </div>

@@ -15,7 +15,7 @@ export default function SectionProgram() {
       {/*section*/}
       <section className="section__container explore__container">
         <div className="explore__header">
-          <h2 className="section__header">NOSSAS PROGRAMAS</h2>
+          <h2 className="section__header">NOSSOS PROGRAMAS</h2>
           <div className="explore__nav">
             <span>
               <i className="ri-arrow-left-line"></i>
@@ -51,8 +51,8 @@ export default function SectionProgram() {
             <h4>Treinamento Funcional</h4>
             <p>
               Prepare seu corpo para os desafios do dia a dia. Através de movimentos naturais, como
-              agachar e saltar, melhorando o condicionamento físico, a agilidade e a postura em um
-              treino dinâmico e nunca monótono.{" "}
+              agachar e saltar, contribui para a melhorar o condicionamento físico, a agilidade e a
+              postura em um treino dinâmico e nunca monótono.
             </p>
             <a href="#">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>

@@ -12,10 +12,10 @@ export default function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/program" element={<Program />} />
-        <Route path="/service" element={<Pricing />} />
-        <Route path="/about" element={<Images />} />
-        <Route path="/review" element={<Review />} />
+        <Route path="/programas" element={<Program />} />
+        <Route path="/planos" element={<Pricing />} />
+        <Route path="/sobre" element={<Images />} />
+        <Route path="/localizacao" element={<Review />} />
       </Routes>
       <WhatsappButton />
     </>

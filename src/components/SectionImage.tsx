@@ -15,10 +15,10 @@ export default function SectionImage() {
         <div className="class__content">
           <h2 className="section__header">SEU CORPO SAUDÁVEL</h2>
           <p>
-            Oferecemos treinos completos para <b>transformar</b> seu corpo e sua <b>saúde</b>, com
-            musculação focada em hipertrofia e emagrecimento, aliado ao suporte de profissionais
-            qualificados e ao uso de <b>equipamentos modernos </b>
-            para proporcionar atividades adaptadas aos seus objetivos.
+            Oferecemos treinos completos para <b>transformar</b> seu corpo e sua <b>saúde</b>.
+            Contamos com musculação focada em hipertrofia e emagrecimento, aliado ao suporte de
+            profissionais qualificados e ao uso de <b>equipamentos modernos </b>
+            proporcionando atividades adaptadas aos seus objetivos.
           </p>
           <button className="btn">FALE PELO WHATSAPP</button>
         </div>
