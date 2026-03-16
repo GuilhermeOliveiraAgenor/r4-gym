@@ -35,7 +35,9 @@ export default function Nav() {
           </li>
         </ul>
 
-        <button className="btn">Aula Experimental</button>
+        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental.">
+          <button className="btn">Aula Experimental</button>
+        </a>
 
         {/* icon mobile */}
         <div className="menu__icon" onClick={toggleMenu}>
@@ -65,8 +67,9 @@ export default function Nav() {
             <a href="/localizacao">Localização</a>
           </li>
         </ul>
-
-        <button className="btn mobile__btn">Comece Agora</button>
+        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank">
+        <button className="btn mobile__btn">Aula Experimental</button>
+        </a>
       </div>
     </>
   );

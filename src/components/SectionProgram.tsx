@@ -38,7 +38,7 @@ export default function SectionProgram() {
               emagrecimento ou fortalecimento, nossa musculação oferece equipamentos modernos e
               acompanhamento profissional para garantir seus resultados.
             </p>
-            <a href="#">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20treinar%20muscula%C3%A7%C3%A3o." target="_blank">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
@@ -54,7 +54,7 @@ export default function SectionProgram() {
               agachar e saltar, contribui para a melhorar o condicionamento físico, a agilidade e a
               postura em um treino dinâmico e nunca monótono.
             </p>
-            <a href="#">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20treinamento%20funcional." target="_blank">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
@@ -70,7 +70,7 @@ export default function SectionProgram() {
               e coreografias divertidas. Melhore seu sistema cardiovascular e coordenação motora
               enquanto se diverte com a nossa comunidade.
             </p>
-            <a href="#">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20dan%C3%A7a." target="_blank">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
@@ -86,14 +86,14 @@ export default function SectionProgram() {
               promove um excelente trabalho cardiovascular e o fortalecimento dos membros
               inferiores, com o benefício de baixo impacto nas articulações.
             </p>
-            <a href="#">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20jump." target="_blank">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
         </div>
       </section>
       <div className="schedule__section">
-        <a href="">
+        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank">
           <h2>MARQUE SUA AULA EXPERIMENTAL AGORA</h2>
         </a>
       </div>

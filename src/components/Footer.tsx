@@ -25,13 +25,10 @@ export default function Footer() {
           </p>
           {/*logo social media*/}
           <div className="footer__socials">
-            <a href="#">
+            <a href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações%20sobre%20a%20academia." target="_blank">
               <i className="ri-whatsapp-line"></i>
             </a>
-            <a href="#">
-              <i className="ri-facebook-circle-fill"></i>
-            </a>
-            <a href="#">
+            <a href="https://www.instagram.com/r4gymcuritiba/" target="_blank">
               <i className="ri-instagram-fill"></i>
             </a>
           </div>
@@ -57,7 +54,9 @@ export default function Footer() {
         {/*column footer*/}
         <div className="footer__col">
           <h4>Contato</h4>
-          <a href="#">Entre em Contato</a>
+          <a href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações%20sobre%20a%20academia." target="_blank">
+            Entre em Contato
+          </a>
           <a href="#">Política de Privacidade</a>
           <a href="#">Termos e condições</a>
           <a href="https://abeso.org.br/calculadora-imc">Calculadora de IMC</a>
