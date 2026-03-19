@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import video from "../assets/video.mp4";
 
 export default function SectionFeature() {
   const [open, setOpen] = useState(false);
-
+  const videoRef = useRef(null);
+  
   return (
     <section className="section__container join_container">
       <div className="join__layout">
@@ -26,20 +27,28 @@ export default function SectionFeature() {
         </div>
         <div className="join__image">
           <video
+            ref={videoRef}
             src={video}
             autoPlay
             muted
             loop
+            preload="metadata"
             playsInline
             className="join__video clickable__image"
-            onClick={() => setOpen(true)}
+            onClick={() => {
+              videoRef.current.pause();
+              setOpen(true);
+            }}
           />
         </div>
       </div>
       {/* modal */}
       {open && (
-        <div className="image__modal" onClick={() => setOpen(false)}>
-          <video src={video} autoPlay controls className="video__modal__content" />
+        <div className="image__modal" onClick={() => {
+          setOpen(false)
+          videoRef.current.play();
+        }}>
+          <video src={video} autoPlay controls className="video__modal__content" onClick={(e) => e.stopPropagation()} />
         </div>
       )}
     </section>
