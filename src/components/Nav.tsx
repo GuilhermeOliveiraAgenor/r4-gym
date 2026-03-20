@@ -13,7 +13,7 @@ export default function Nav() {
       <nav>
         <div className="nav__logo">
           <a href="/">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="R4 Gym Curitiba" />
           </a>
         </div>
 
@@ -67,7 +67,7 @@ export default function Nav() {
             <a href="/localizacao">Localização</a>
           </li>
         </ul>
-        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank">
+        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener noreferrer">
         <button className="btn mobile__btn">Aula Experimental</button>
         </a>
       </div>

@@ -38,7 +38,7 @@ export default function SectionProgram() {
               emagrecimento ou fortalecimento, nossa musculação oferece equipamentos modernos e
               acompanhamento profissional para garantir seus resultados.
             </p>
-            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20treinar%20muscula%C3%A7%C3%A3o." target="_blank">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20treinar%20muscula%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
@@ -54,7 +54,7 @@ export default function SectionProgram() {
               agachar e saltar, contribui para a melhorar o condicionamento físico, a agilidade e a
               postura em um treino dinâmico e nunca monótono.
             </p>
-            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20treinamento%20funcional." target="_blank">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20treinamento%20funcional." target="_blank" rel="noopener noreferrer">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
@@ -70,7 +70,7 @@ export default function SectionProgram() {
               e coreografias divertidas. Melhore seu sistema cardiovascular e coordenação motora
               enquanto se diverte com a nossa comunidade.
             </p>
-            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20dan%C3%A7a." target="_blank">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20dan%C3%A7a." target="_blank" rel="noopener noreferrer">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
@@ -86,14 +86,14 @@ export default function SectionProgram() {
               promove um excelente trabalho cardiovascular e o fortalecimento dos membros
               inferiores, com o benefício de baixo impacto nas articulações.
             </p>
-            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20jump." target="_blank">
+            <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20jump." target="_blank" rel="noopener noreferrer">
               Garanta sua vaga <i className="ri-arrow-right-line"></i>
             </a>
           </div>
         </div>
       </section>
       <div className="schedule__section">
-        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank">
+        <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener noreferrer">
           <h2>MARQUE SUA AULA EXPERIMENTAL AGORA</h2>
         </a>
       </div>
@@ -102,7 +102,8 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura2}
-              alt="estrutura2"
+              alt="Academia com equipamentos modernos para treino de força e condicionamento físico"
+              loading="lazy"
               onClick={() => setSelectedImage(estrutura2)}
               className="clickable__image"
             />
@@ -111,7 +112,8 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={entrada2}
-              alt="entrada2"
+              alt="Recepção da academia com atendimento acolhedor e ambiente organizado"
+              loading="lazy"
               onClick={() => setSelectedImage(entrada2)}
               className="clickable__image"
             />
@@ -120,7 +122,8 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura4}
-              alt="estrutura4"
+              alt="Espaço de treino com aparelhos profissionais para desenvolvimento físico e saúde"
+              loading="lazy"
               onClick={() => setSelectedImage(estrutura4)}
               className="clickable__image"
             />
@@ -129,7 +132,8 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura3}
-              alt="estrutura3"
+              alt="Área da academia equipada para treino com pesos e melhoria do desempenho físico"
+              loading="lazy"
               onClick={() => setSelectedImage(estrutura3)}
               className="clickable__image"
             />
@@ -138,7 +142,8 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={fachada}
-              alt="fachada"
+              alt="Fachada da academia R4 Gym com estrutura moderna e ambiente convidativo"
+              loading="lazy"
               onClick={() => setSelectedImage(fachada)}
               className="clickable__image"
             />
@@ -147,7 +152,8 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={aparelho}
-              alt="aparelho"
+              alt="Equipamentos modernos para treino de força na academia"
+              loading="lazy"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
             />

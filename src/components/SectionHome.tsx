@@ -13,7 +13,8 @@ export default function SectionHome() {
           <div className="ttrainer__card">
             <img
               src={estrutura4}
-              alt="estrutura4"
+              alt="Estrutura da academia com aparelhos modernos de musculação"
+              loading="lazy"
               onClick={() => setSelectedImage(estrutura4)}
               className="clickable__image"
             />
@@ -24,7 +25,7 @@ export default function SectionHome() {
               <h5></h5>
               <hr />
               <div className="ttrainer__socials">
-                <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank">
+                <a href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">
                   <i className="ri-whatsapp-line"></i>
                 </a>
                 <a href="https://www.instagram.com/r4gymcuritiba/" target="_blank">
@@ -36,7 +37,8 @@ export default function SectionHome() {
           <div className="ttrainer__card ">
             <img
               src={aparelho}
-              alt="aparelho"
+              alt="Estrutura da R4 Gym com aparelhos modernos e ambiente amplo para treino"
+              loading="lazy"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
             />
@@ -51,7 +53,8 @@ export default function SectionHome() {
           <div className="ttrainer__card">
             <img
               src={treino}
-              alt="treino"
+              alt="Professor da R4 Gym orientando aluno durante treino"
+              loading="lazy"
               onClick={() => setSelectedImage(treino)}
               className="clickable__image treino__image"
             />
