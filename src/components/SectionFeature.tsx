@@ -3,8 +3,8 @@ import video from "../assets/video.mp4";
 
 export default function SectionFeature() {
   const [open, setOpen] = useState(false);
-  const videoRef = useRef(null);
-  
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
   return (
     <section className="section__container join_container">
       <div className="join__layout">
@@ -36,7 +36,7 @@ export default function SectionFeature() {
             playsInline
             className="join__video clickable__image"
             onClick={() => {
-              videoRef.current.pause();
+              videoRef.current?.pause();
               setOpen(true);
             }}
           />
@@ -46,7 +46,7 @@ export default function SectionFeature() {
       {open && (
         <div className="image__modal" onClick={() => {
           setOpen(false)
-          videoRef.current.play();
+          videoRef.current?.play();
         }}>
           <video src={video} autoPlay controls className="video__modal__content" onClick={(e) => e.stopPropagation()} />
         </div>

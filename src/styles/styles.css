@@ -640,6 +640,8 @@ b {
   font-weight: bold;
   background-color: transparent;
   border: 2px solid var(--secondary-color);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .price__btn:hover {
