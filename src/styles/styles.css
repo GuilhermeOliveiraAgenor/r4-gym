@@ -64,7 +64,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--white)
+  color: var(--white);
 }
 
 .bg__blur {
@@ -987,12 +987,12 @@ b {
   font-weight: 600;
 }
 
-.description_price{
+.description_price {
   color: var(--white);
   font-weight: 600;
 }
 
-.pricing{
+.pricing {
   font-size: 1.5rem;
 }
 
