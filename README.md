@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# 🏋️‍♂️ R4 Gym
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web da Academia R4 Gym, responsável por apresentar informações institucionais, serviços e planos da academia.
 
-Currently, two official plugins are available:
+O site foi desenvolvido com foco em experiência do usuário e design moderno, permitindo que visitantes conheçam melhor a academia e entrem em contato de forma rápida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Aplicação Online
+👉 Acesse o site:
+<br>
+-
 
-## React Compiler
+## 📌 About
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+R4 Gym é um website institucional desenvolvido para a academia localizada em Curitiba - Paraná, com o objetivo de fortalecer sua presença digital e atrair novos alunos.
 
-## Expanding the ESLint configuration
+A aplicação apresenta informações completas sobre a academia, incluindo programas de treino, planos, estrutura, galeria de fotos e vídeos, além de disponibilizar um canal direto de contato via WhatsApp.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O projeto foi construído priorizando performance, responsividade e navegação intuitiva, garantindo uma boa experiência tanto em dispositivos desktop quanto mobile.
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📷 Interface
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+**Tela inicial do site com apresentação da academia, destaques e acesso rápido às principais seções.**
+
+<p align="center"> <img src="./home.png" width="1000"> </p>
+<p align="center"> <img src="./nossos-programas.png" width="1000"> </p>
+<p align="center"> <img src="./nossos-planos.png" width="1000"> </p>
+
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- TypeScript
+- ESLint + Prettier
+
+## 🏗️ Estrutura do projeto
+
+A estrutura foi organizada de forma simples e escalável, facilitando manutenção e evolução do projeto.
+```
+├─ public
+├─ src
+│  ├─ assets
+│  ├─ components
+│  └─ pages
+└─ styles
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Descrição das principais pastas
+- public → arquivos públicos utilizados para indexação e SEO do site
+- assets → imagens, vídeos e arquivos estáticos
+- components → componentes reutilizáveis da interface
+- pages → páginas do site
+- styles → arquivos de estilização
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+## ▶️ Run
 
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+### 1️⃣ Clone o repositório
 ```
+git clone https://github.com/seu-usuario/r4-gym.git
+cd r4-gym
+```
+
+### 2️⃣ Instalar dependências
+```
+npm install
+```
+
+### 3️⃣ Iniciar aplicação
+```
+npm run dev
+```
+
