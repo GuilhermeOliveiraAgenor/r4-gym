@@ -26,7 +26,8 @@ export default function SectionHome() {
               <hr />
               <div className="ttrainer__socials">
                 <a
-                  href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                  href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.ra
+                  "
                   target="_blank"
                   rel="noopener noreferrer"
                 >

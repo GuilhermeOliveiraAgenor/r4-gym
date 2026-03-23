@@ -37,7 +37,7 @@ export default function SectionPrice() {
               </p>
             </div>
             <a
-              href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Horário%20Especial.%20Gostaria%20de%20mais%20informações."
+              href="https://wa.me/5541996289080?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Horário%20Especial.%20Gostaria%20de%20mais%20informações."
               target="_blank"
               rel="noopener noreferrer"
               className="btn price__btn"
@@ -64,7 +64,7 @@ export default function SectionPrice() {
               </p>
             </div>
             <a
-              href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Mensal.%20Gostaria%20de%20mais%20informações."
+              href="https://wa.me/5541996289080?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Mensal.%20Gostaria%20de%20mais%20informações."
               target="_blank"
               rel="noopener noreferrer"
               className="btn price__btn"
@@ -95,7 +95,7 @@ export default function SectionPrice() {
               </p>
             </div>
             <a
-              href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Trimestral.%20Gostaria%20de%20mais%20informações."
+              href="https://wa.me/5541996289080?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Trimestral.%20Gostaria%20de%20mais%20informações."
               target="_blank"
               rel="noopener noreferrer"
               className="btn price__btn"
@@ -135,7 +135,7 @@ export default function SectionPrice() {
               </p>
             </div>
             <a
-              href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Anual.%20Gostaria%20de%20mais%20informações."
+              href="https://wa.me/5541996289080?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Anual.%20Gostaria%20de%20mais%20informações."
               target="_blank"
               rel="noopener noreferrer"
               className="btn price__btn"
@@ -168,7 +168,7 @@ export default function SectionPrice() {
               </p>
             </div>
             <a
-              href="https://wa.me/5541996927137?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Anual%20com%20Nutricionista.%20Gostaria%20de%20mais%20informações."
+              href="https://wa.me/5541996289080?text=Olá!%20Vim%20pelo%20site%20e%20tenho%20interesse%20no%20Plano%20Anual%20com%20Nutricionista.%20Gostaria%20de%20mais%20informações."
               target="_blank"
               rel="noopener noreferrer"
               className="btn price__btn"

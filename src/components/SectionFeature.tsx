@@ -21,7 +21,7 @@ export default function SectionFeature() {
               <i className="ri-calendar-check-fill"></i>
             </span>
             <a
-              href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
+              href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
               target="_blank"
               rel="noopener noreferrer"
             >

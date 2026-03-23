@@ -39,7 +39,7 @@ export default function SectionProgram() {
               acompanhamento profissional para garantir seus resultados.
             </p>
             <a
-              href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20treinar%20muscula%C3%A7%C3%A3o."
+              href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20treinar%20muscula%C3%A7%C3%A3o."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ export default function SectionProgram() {
               postura em um treino dinâmico e nunca monótono.
             </p>
             <a
-              href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20treinamento%20funcional."
+              href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20treinamento%20funcional."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,7 +79,7 @@ export default function SectionProgram() {
               enquanto se diverte com a nossa comunidade.
             </p>
             <a
-              href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20dan%C3%A7a."
+              href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20dan%C3%A7a."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -99,7 +99,7 @@ export default function SectionProgram() {
               inferiores, com o benefício de baixo impacto nas articulações.
             </p>
             <a
-              href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20jump."
+              href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20participar%20das%20aulas%20de%20jump."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -110,7 +110,7 @@ export default function SectionProgram() {
       </section>
       <div className="schedule__section">
         <a
-          href="https://wa.me/5541996927137?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
+          href="https://wa.me/5541996289080?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
           target="_blank"
           rel="noopener noreferrer"
         >
