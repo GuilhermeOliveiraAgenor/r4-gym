@@ -57,7 +57,7 @@ A estrutura foi organizada de forma simples e escalável, facilitando manutenç�
 
 ### 1️⃣ Clone o repositório
 ```
-git clone https://github.com/seu-usuario/r4-gym.git
+git clone https://github.com/GuilhermeOliveiraAgenor/r4-gym.git
 cd r4-gym
 ```
 
