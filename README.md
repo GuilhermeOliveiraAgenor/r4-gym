@@ -21,11 +21,22 @@ O projeto foi construído priorizando performance, **responsividade** e navegaç
 ## 📷 Interface
 
 Tela inicial do site com apresentação da academia.
-<p align="center"> <img src="./hero.png" width="1000"> </p>
+
+<p align="center">
+  <img src="./hero.png" width="1000">
+</p>
+
 Seção com os programas de treino.
-<p align="center"> <img src="./nossos-programas.png" width="1000"> </p>
+
+<p align="center">
+  <img src="./nossos-programas.png" width="1000">
+</p>
+
 Exibição dos planos da academia.
-<p align="center"> <img src="./nossos-planos.png" width="1000"> </p>
+
+<p align="center">
+  <img src="./nossos-planos.png" width="1000">
+</p>
 
 
 ## 🛠️ Tech Stack
