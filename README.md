@@ -23,7 +23,7 @@ O projeto foi construído priorizando performance, **responsividade** e navegaç
 Tela inicial do site com apresentação da academia.
 
 <p align="center">
-  <img src="./hero.png" width="1000">
+  <img src="./home.png" width="1000">
 </p>
 
 Seção com os programas de treino.
