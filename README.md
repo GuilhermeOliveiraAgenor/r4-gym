@@ -7,24 +7,36 @@ O site foi desenvolvido com foco em experiência do usuário e design moderno, p
 ## 🌐 Aplicação Online
 👉 Acesse o site:
 <br>
--
+https://r4gymcuritiba.com.br
 
 ## 📌 About
 
-R4 Gym é um website institucional desenvolvido para a academia localizada em Curitiba - Paraná, com o objetivo de fortalecer sua presença digital e atrair novos alunos.
+R4 Gym é um **website** institucional desenvolvido para a academia localizada em **Curitiba** - Paraná, com o objetivo de fortalecer sua presença digital e atrair novos alunos.
 
-A aplicação apresenta informações completas sobre a academia, incluindo programas de treino, planos, estrutura, galeria de fotos e vídeos, além de disponibilizar um canal direto de contato via WhatsApp.
+A aplicação apresenta informações completas sobre a academia, incluindo programas de treino, planos, estrutura, galeria de fotos e vídeos, além de disponibilizar um canal direto de contato via **WhatsApp**.
 
-O projeto foi construído priorizando performance, responsividade e navegação intuitiva, garantindo uma boa experiência tanto em dispositivos desktop quanto mobile.
+O projeto foi construído priorizando performance, **responsividade** e navegação intuitiva, garantindo uma boa experiência tanto em dispositivos **desktop** quanto **mobile**.
 
 
 ## 📷 Interface
 
-**Tela inicial do site com apresentação da academia, destaques e acesso rápido às principais seções.**
+Tela inicial do site com apresentação da academia.
 
-<p align="center"> <img src="./home.png" width="1000"> </p>
-<p align="center"> <img src="./nossos-programas.png" width="1000"> </p>
-<p align="center"> <img src="./nossos-planos.png" width="1000"> </p>
+<p align="center">
+  <img src="./home.png" width="1000">
+</p>
+
+Seção com os programas de treino.
+
+<p align="center">
+  <img src="./nossos-programas.png" width="1000">
+</p>
+
+Exibição dos planos da academia.
+
+<p align="center">
+  <img src="./nossos-planos.png" width="1000">
+</p>
 
 
 ## 🛠️ Tech Stack
