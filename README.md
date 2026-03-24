@@ -6,8 +6,7 @@ O site foi desenvolvido com foco em experiência do usuário e design moderno, p
 
 ## 🌐 Aplicação Online
 👉 Acesse o site:
-<br>
--
+https://r4gymcuritiba.com.br
 
 ## 📌 About
 
