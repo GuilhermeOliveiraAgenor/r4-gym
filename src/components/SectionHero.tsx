@@ -29,7 +29,7 @@ export default function SectionHero() {
         </div>
         {/*image hero*/}
         <div className="header__image">
-          <img src={header} alt="treino musculação" />
+          <img src={header} loading="eager" alt="treino musculação" />
         </div>
       </header>
     </>
