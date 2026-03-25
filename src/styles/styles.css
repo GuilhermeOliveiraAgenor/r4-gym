@@ -1272,6 +1272,16 @@ b {
   .ttrainer__grid {
     grid-template-columns: 1fr;
   }
+
+  .video__modal__content {
+    width: 100%;
+    max-width: 90vw;
+    max-height: 80vh;
+
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
 }
 
 @media (width < 420px) {
