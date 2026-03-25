@@ -18,7 +18,6 @@ export default function SectionImage() {
           <img
             src={class2}
             alt="Aluno treinando na academia"
-            loading="lazy"
             className="class__img-2"
           />
         </div>
