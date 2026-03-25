@@ -147,7 +147,6 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  flex: 1;
 }
 
 .mobile__menu li a {
@@ -161,7 +160,7 @@ nav {
   padding: 1rem;
   font-size: 1.1rem;
   text-align: center;
-  margin-top: auto;
+  margin-top: 25rem;
 }
 
 .link a {
@@ -1305,5 +1304,11 @@ b {
     max-width: 390px;
     border-radius: 10px;
     object-fit: cover;
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    *:hover {
+      all: unset;
+    }
   }
 }
