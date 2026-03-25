@@ -1325,11 +1325,67 @@ b {
     max-width: 390px;
     border-radius: 10px;
     object-fit: cover;
+  }  
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+  .btn:hover {
+    background-color: var(--secondary-color-dark);
   }
 
-  @media (hover: none) and (pointer: coarse) {
-    *:hover {
-      all: unset;
-    }
+  .link a:hover::after {
+    width: 50%;
+  }
+
+  .explore__nav span:hover {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+
+  .explore__card:hover {
+    background-color: var(--primary-color-extra-light);
+    border-color: var(--secondary-color);
+  }
+
+  .explore__card a:hover {
+    color: var(--secondary-color);
+  }
+
+  .join__card--cta:hover {
+    background: var(--secondary-color-dark);
+  }
+
+  .clickable__image:hover {
+    transform: scale(1.05);
+  }
+
+  .price__card:hover {
+    background-color: var(--primary-color-extra-light);
+    border-color: var(--secondary-color);
+  }
+
+  .price__btn:hover {
+    color: var(--white);
+    background-color: var(--secondary-color);
+  }
+
+  .footer__socials a:hover {
+    color: var(--white);
+    background-color: var(--secondary-color);
+  }
+
+  .footer__col > a:hover {
+    color: var(--secondary-color);
+  }
+
+  .ttrainer__socials a:hover {
+    color: var(--secondary-color);
+  }
+
+  .whatsapp__float:hover {
+    transform: scale(1.1);
   }
 }
+
+
