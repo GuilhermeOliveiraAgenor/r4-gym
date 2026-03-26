@@ -41,6 +41,7 @@ export default function SectionHome() {
           <div className="ttrainer__card ">
             <img
               src={aparelho}
+              loading="lazy"
               alt="Estrutura da R4 Gym com aparelhos modernos e ambiente amplo para treino"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
@@ -56,6 +57,7 @@ export default function SectionHome() {
           <div className="ttrainer__card">
             <img
               src={treino}
+              loading="lazy"
               alt="Professor da R4 Gym orientando aluno durante treino"
               onClick={() => setSelectedImage(treino)}
               className="clickable__image treino__image"
@@ -76,6 +78,7 @@ export default function SectionHome() {
         <div className="image__modal" onClick={() => setSelectedImage(null)}>
           <img
             src={selectedImage}
+            loading="lazy"
             alt="preview"
             className={`image__modal__content ${
               selectedImage === aparelho || selectedImage === treino ? "aparelho__modal" : ""

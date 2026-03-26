@@ -131,6 +131,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={entrada2}
+              loading="lazy"
               alt="Recepção da academia com atendimento acolhedor e ambiente organizado"
               onClick={() => setSelectedImage(entrada2)}
               className="clickable__image"
@@ -140,6 +141,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura4}
+              loading="lazy"
               alt="Espaço de treino com aparelhos profissionais para desenvolvimento físico e saúde"
               onClick={() => setSelectedImage(estrutura4)}
               className="clickable__image"
@@ -149,6 +151,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={estrutura3}
+              loading="lazy"
               alt="Área da academia equipada para treino com pesos e melhoria do desempenho físico"
               onClick={() => setSelectedImage(estrutura3)}
               className="clickable__image"
@@ -158,6 +161,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={fachada}
+              loading="lazy"
               alt="Fachada da academia R4 Gym com estrutura moderna e ambiente convidativo"
               onClick={() => setSelectedImage(fachada)}
               className="clickable__image"
@@ -167,6 +171,7 @@ export default function SectionProgram() {
           <div className="ttrainer__card">
             <img
               src={aparelho}
+              loading="lazy"
               alt="Equipamentos modernos para treino de força na academia"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
