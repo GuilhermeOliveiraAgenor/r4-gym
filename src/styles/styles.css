@@ -160,7 +160,7 @@ nav {
   padding: 1rem;
   font-size: 1.1rem;
   text-align: center;
-  margin-top: 25rem;
+  margin-top: 15rem;
 }
 
 .link a {
@@ -528,11 +528,6 @@ b {
 .clickable__image {
   cursor: pointer;
   transition: transform 0.3s;
-}
-
-.clickable__image:hover {
-  transform: scale(1.05);
-  height: 100%;
 }
 
 /*modal*/
@@ -1386,6 +1381,10 @@ b {
   .whatsapp__float:hover {
     transform: scale(1.1);
   }
+
+  .clickable__image:hover {
+    transform: scale(1.05);
+    height: 100%;  }
 }
 
 

@@ -123,7 +123,6 @@ export default function SectionProgram() {
             <img
               src={estrutura2}
               alt="Academia com equipamentos modernos para treino de força e condicionamento físico"
-              loading="lazy"
               onClick={() => setSelectedImage(estrutura2)}
               className="clickable__image"
             />
@@ -133,7 +132,6 @@ export default function SectionProgram() {
             <img
               src={entrada2}
               alt="Recepção da academia com atendimento acolhedor e ambiente organizado"
-              loading="lazy"
               onClick={() => setSelectedImage(entrada2)}
               className="clickable__image"
             />
@@ -143,7 +141,6 @@ export default function SectionProgram() {
             <img
               src={estrutura4}
               alt="Espaço de treino com aparelhos profissionais para desenvolvimento físico e saúde"
-              loading="lazy"
               onClick={() => setSelectedImage(estrutura4)}
               className="clickable__image"
             />
@@ -153,7 +150,6 @@ export default function SectionProgram() {
             <img
               src={estrutura3}
               alt="Área da academia equipada para treino com pesos e melhoria do desempenho físico"
-              loading="lazy"
               onClick={() => setSelectedImage(estrutura3)}
               className="clickable__image"
             />
@@ -163,7 +159,6 @@ export default function SectionProgram() {
             <img
               src={fachada}
               alt="Fachada da academia R4 Gym com estrutura moderna e ambiente convidativo"
-              loading="lazy"
               onClick={() => setSelectedImage(fachada)}
               className="clickable__image"
             />
@@ -173,7 +168,6 @@ export default function SectionProgram() {
             <img
               src={aparelho}
               alt="Equipamentos modernos para treino de força na academia"
-              loading="lazy"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
             />
