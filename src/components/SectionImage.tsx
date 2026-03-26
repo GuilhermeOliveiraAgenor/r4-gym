@@ -12,7 +12,6 @@ export default function SectionImage() {
           <img
             src={estrutura2}
             alt="Academia equipada para treino com pesos e condicionamento físico"
-            loading="lazy"
             className="class__img-1"
           />
           <img

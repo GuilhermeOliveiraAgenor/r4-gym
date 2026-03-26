@@ -14,7 +14,6 @@ export default function SectionHome() {
             <img
               src={estrutura4}
               alt="Estrutura da academia com aparelhos modernos de musculação"
-              loading="lazy"
               onClick={() => setSelectedImage(estrutura4)}
               className="clickable__image"
             />
@@ -43,7 +42,6 @@ export default function SectionHome() {
             <img
               src={aparelho}
               alt="Estrutura da R4 Gym com aparelhos modernos e ambiente amplo para treino"
-              loading="lazy"
               onClick={() => setSelectedImage(aparelho)}
               className="clickable__image aparelho__image"
             />
@@ -59,7 +57,6 @@ export default function SectionHome() {
             <img
               src={treino}
               alt="Professor da R4 Gym orientando aluno durante treino"
-              loading="lazy"
               onClick={() => setSelectedImage(treino)}
               className="clickable__image treino__image"
             />

@@ -26,10 +26,9 @@ export default function SectionMap() {
           </div>
           <div className="review__map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.644480448781!2d-49.269935399999994!3d-25.483544199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce58d915ccfe1%3A0x4b991963ce0d2f33!2sAcademia%20R4%20Gym!5e0!3m2!1sen!2sbr!4v1773581591248!5m2!1sen!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.644480448781!2d-49.269935399999994!3d-25.483544199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce58d915ccfe1%3A0x4b991963ce0d2f33!2sAcademia%20R4%20Gym!5e0!3m2!1spt-BR!2sbr!4v1773581591248!5m2!1spt-BR!2sbr"
               width="600"
               height="450"
-              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
