@@ -16,6 +16,7 @@ export default function SectionImage() {
           />
           <img
             src={class2}
+            loading="lazy"
             alt="Aluno treinando na academia"
             className="class__img-2"
           />
