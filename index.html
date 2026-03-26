@@ -33,9 +33,23 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://r4gymcuritiba.com.br" />
-    <meta property="og:image" content="https://r4gymcuritiba.com.br/preview.png" />
-    <meta property="og:site_name" content="R4 Gym" />
-    <meta property="og:locale" content="pt_BR" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Gym",
+        "name": "R4 Gym",
+        "image": "https://r4gymcuritiba.com.br/preview.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Curitiba",
+          "addressRegion": "PR",
+          "addressCountry": "BR"
+        }
+      }
+      </script>
+      <meta property="og:image" content="https://r4gymcuritiba.com.br/preview.png" />
+      <meta property="og:site_name" content="R4 Gym" />
+      <meta property="og:locale" content="pt_BR" />
   </head>
   <body>
     <div id="root"></div>

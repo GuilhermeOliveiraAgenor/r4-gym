@@ -8,6 +8,16 @@ import SectionImage from "../components/SectionImage";
 export default function Home() {
   return (
     <>
+      <img
+  src="/preview.png"
+  alt="Academia R4 Gym Curitiba"
+  width="1200"
+  height="630"
+  style={{
+    position: "absolute",
+    left: "-9999px",
+  }}
+/>
       <Nav />
       <SectionHero />
       <SectionImage />

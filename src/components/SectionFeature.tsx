@@ -59,6 +59,7 @@ export default function SectionFeature() {
             src={video}
             autoPlay
             controls
+            preload="metadata"
             className="video__modal__content"
             onClick={(e) => e.stopPropagation()}
           />
